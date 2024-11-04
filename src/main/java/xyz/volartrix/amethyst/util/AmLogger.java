@@ -7,11 +7,10 @@ import java.util.logging.Level;
 
 public class AmLogger {
 
-    private Logger logger;
-    private String ident;
+    private final Logger logger;
 
     public AmLogger(String sub_ident, Logger parent) {
-        this.ident = "Amethyst-" + sub_ident;
+        String ident = "Amethyst-" + sub_ident;
         this.logger = Logger.getLogger(ident);
         this.logger.setParent(parent);
     }
