@@ -13,3 +13,10 @@ commands:
         permission: amethyst.command
         aliases:
           - aver
+
+    pinfo:
+        description: Print info about the player
+        usage: /<command> <player>
+        permission: amethyst.pinfo
+        aliases:
+          - playerinfo

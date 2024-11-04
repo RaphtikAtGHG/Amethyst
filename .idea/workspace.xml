@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab5d15a-5bd2-45ac-aeac-e0e79f128ecf" name="Changes" comment="init">
-      <change afterPath="D:/Amethist/LICENSE" afterDir="false" />
-      <change afterPath="D:/Amethist/README.md" afterDir="false" />
+    <list default="true" id="cab5d15a-5bd2-45ac-aeac-e0e79f128ecf" name="Changes" comment="license + readme">
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/commands/CommandPlayinfo.java" afterDir="false" />
       <change beforePath="D:/Amethist/.idea/workspace.xml" beforeDir="false" afterPath="D:/Amethist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/util/AmLogger.java" beforeDir="false" afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/util/AmLogger.java" afterDir="false" />
+      <change beforePath="D:/Amethist/src/main/resources/plugin.yml" beforeDir="false" afterPath="D:/Amethist/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,8 +262,17 @@
       <workItem from="1730628265606" duration="1306000" />
       <workItem from="1730638795369" duration="2979000" />
       <workItem from="1730660105064" duration="3218000" />
-      <workItem from="1730752749734" duration="364000" />
+      <workItem from="1730752749734" duration="825000" />
     </task>
+    <task id="LOCAL-00001" summary="license + readme">
+      <option name="closed" value="true" />
+      <created>1730753135366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730753135366</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +280,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="license + readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="license + readme" />
   </component>
 </project>
