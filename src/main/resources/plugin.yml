@@ -1,0 +1,15 @@
+name: Amethyst
+version: 0.0.1
+main: xyz.volartrix.amethyst.AmethystPlugin
+description: Amethyst is a plugin that does stuff.
+author: Raphtik@GHG
+website: https://volartrix.xyz
+api-version: '1.21.3'
+
+commands:
+    amethyst:
+        description: Print info about the current build of amethyst
+        usage: /<command>
+        permission: amethyst.command
+        aliases:
+          - aver

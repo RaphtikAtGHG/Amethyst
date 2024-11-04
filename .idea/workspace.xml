@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab5d15a-5bd2-45ac-aeac-e0e79f128ecf" name="Changes" comment="init">
+      <change afterPath="D:/Amethist/.gitignore" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/.gitignore" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/.name" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="D:/Amethist/build.gradle.kts" afterDir="false" />
+      <change afterPath="D:/Amethist/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="D:/Amethist/gradlew" afterDir="false" />
+      <change afterPath="D:/Amethist/gradlew.bat" afterDir="false" />
+      <change afterPath="D:/Amethist/settings.gradle.kts" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/AmethystPlugin.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/commands/CommandAmethyst.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/commands/CommandManager.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/events/EnderDragonDeath.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/events/EventManager.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/java/xyz/volartrix/amethyst/util/AmLogger.java" afterDir="false" />
+      <change afterPath="D:/Amethist/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/.console_history" afterDir="false" />
+      <change afterPath="D:/Amethist/test/banned-ips.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/banned-players.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/bukkit.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/cache/mojang_1.21.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/commands.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/config/paper-global.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/config/paper-world-defaults.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/eula.txt" afterDir="false" />
+      <change afterPath="D:/Amethist/test/help.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/lmax/disruptor/3.4.4/disruptor-3.4.4.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/microsoft/azure/msal4j/1.15.0/msal4j-1.15.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mojang/authlib/6.0.55/authlib-6.0.55.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mojang/jtracy/1.0.29/jtracy-1.0.29.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mojang/logging/1.4.9/logging-1.4.9.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/nimbusds/content-type/2.3/content-type-2.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/nimbusds/nimbus-jose-jwt/9.37.3/nimbus-jose-jwt-9.37.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/nimbusds/oauth2-oidc-sdk/11.9.1/oauth2-oidc-sdk-11.9.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/com/velocitypowered/velocity-native/3.3.0-SNAPSHOT/velocity-native-3.3.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-codec-haproxy/4.1.97.Final/netty-codec-haproxy-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/papermc/asm-utils/0.0.3/asm-utils-0.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/papermc/paper/paper-api/1.21.3-R0.1-SNAPSHOT/paper-api-1.21.3-R0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/papermc/reflection-rewriter-proxy-generator/0.0.3/reflection-rewriter-proxy-generator-0.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/papermc/reflection-rewriter-runtime/0.0.3/reflection-rewriter-runtime-0.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/io/papermc/reflection-rewriter/0.0.3/reflection-rewriter-0.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/javax/inject/javax.inject/1/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/me/lucko/spark-api/0.1-20240720.200737-2/spark-api-0.1-20240720.200737-2.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/me/lucko/spark-paper/1.10.105-SNAPSHOT/spark-paper-1.10.105-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-logger-slf4j/4.17.0/adventure-text-logger-slf4j-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-serializer-ansi/4.17.0/adventure-text-serializer-ansi-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/ansi/1.0.3/ansi-1.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/kyori/option/1.0.0/option-1.0.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/md-5/bungeecord-chat/1.20-R0.2-deprecated+build.18/bungeecord-chat-1.20-R0.2-deprecated+build.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/minidev/accessors-smart/2.5.0/accessors-smart-2.5.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/minidev/json-smart/2.5.0/json-smart-2.5.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/neoforged/installertools/cli-utils/2.1.4/cli-utils-2.1.4.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/neoforged/javadoctor/gson-io/2.0.17/gson-io-2.0.17.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/neoforged/javadoctor/spec/2.0.17/spec-2.0.17.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/neoforged/srgutils/1.0.9/srgutils-1.0.9.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/logging/log4j/log4j-iostreams/2.22.1/log4j-iostreams-2.22.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-artifact/3.9.6/maven-artifact-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-builder-support/3.9.6/maven-builder-support-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-model-builder/3.9.6/maven-model-builder-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-model/3.9.6/maven-model-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-repository-metadata/3.9.6/maven-repository-metadata-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/maven-resolver-provider/3.9.6/maven-resolver-provider-3.9.6.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.18/maven-resolver-connector-basic-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-impl/1.9.18/maven-resolver-impl-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-named-locks/1.9.18/maven-resolver-named-locks-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-spi/1.9.18/maven-resolver-spi-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-transport-http/1.9.18/maven-resolver-transport-http-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/jline/jline-terminal-jansi/3.21.0/jline-terminal-jansi-3.21.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/jline/jline-terminal/3.21.0/jline-terminal-3.21.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/spongepowered/configurate-core/4.2.0-SNAPSHOT/configurate-core-4.2.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/spongepowered/configurate-yaml/4.2.0-SNAPSHOT/configurate-yaml-4.2.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/xerial/sqlite-jdbc/3.46.1.3/sqlite-jdbc-3.46.1.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/libraries/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/logs/2024-11-03-1.log.gz" afterDir="false" />
+      <change afterPath="D:/Amethist/test/logs/2024-11-03-2.log.gz" afterDir="false" />
+      <change afterPath="D:/Amethist/test/logs/2024-11-03-3.log.gz" afterDir="false" />
+      <change afterPath="D:/Amethist/test/logs/2024-11-03-4.log.gz" afterDir="false" />
+      <change afterPath="D:/Amethist/test/logs/latest.log" afterDir="false" />
+      <change afterPath="D:/Amethist/test/ops.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/paper.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/permissions.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/Amethyst-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/extra-plugins/index.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/index.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/libraries/index.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/mappings/reversed/0889F90311B5C2CAC2BECC588114BD0645D46E853872C08892EB575139B3CDEC.tiny" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/remap-classpath/0889F90311B5C2CAC2BECC588114BD0645D46E853872C08892EB575139B3CDEC.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/.paper-remapped/unknown-origin/index.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/Amethyst-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/bStats/config.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/spark/config.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/plugins/spark/tmp-client/about.txt" afterDir="false" />
+      <change afterPath="D:/Amethist/test/run.bat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/run.sh" afterDir="false" />
+      <change afterPath="D:/Amethist/test/server.properties" afterDir="false" />
+      <change afterPath="D:/Amethist/test/spigot.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/usercache.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/version_history.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/versions/1.21.3/paper-1.21.3.jar" afterDir="false" />
+      <change afterPath="D:/Amethist/test/whitelist.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/advancements/158e8a8c-4e2f-475f-a631-a2b8cea88779.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/data/raids.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/data/random_sequences.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/data/scoreboard.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/datapacks/bukkit/pack.mcmeta" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/level.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/level.dat_old" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/paper-world.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/playerdata/158e8a8c-4e2f-475f-a631-a2b8cea88779.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/playerdata/158e8a8c-4e2f-475f-a631-a2b8cea88779.dat_old" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/poi/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.-2.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/stats/158e8a8c-4e2f-475f-a631-a2b8cea88779.json" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world/uid.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/level.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/level.dat_old" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/paper-world.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_nether/uid.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/level.dat" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/level.dat_old" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/paper-world.yml" afterDir="false" />
+      <change afterPath="D:/Amethist/test/world_the_end/uid.dat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="D:/Amethist">
+      <ProjectState />
+    </projectState>
+    <projectState path="D:Amethist">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="D:/Amethist">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amethyst" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amethyst" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amethyst" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amethyst" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="plugin" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amethyst" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/Amethist" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RaphtikAtGHG&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RaphtikAtGHG/Amethyst.git&quot;,
+    &quot;accountId&quot;: &quot;2413b82b-f939-42a1-a67d-44221d35d093&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oJXjHJsBgkIEIwd5b8F85wCjAR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Amethist [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Amethist [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Amethist [compileJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Amethist [copyJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Amethist [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Amethist [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Amethist/build.gradle.kts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.Amethist [build]">
+    <configuration name="Amethist [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/Amethist" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Amethist [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/Amethist" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Amethist [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/Amethist" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Amethist [copyJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/Amethist" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="copyJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Amethist [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/Amethist" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Amethist [build]" />
+        <item itemvalue="Gradle.Amethist [copyJar]" />
+        <item itemvalue="Gradle.Amethist [runServer]" />
+        <item itemvalue="Gradle.Amethist [check]" />
+        <item itemvalue="Gradle.Amethist [compileJava]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab5d15a-5bd2-45ac-aeac-e0e79f128ecf" name="Changes" comment="" />
+      <created>1724960264316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724960264316</updated>
+      <workItem from="1724960265460" duration="92000" />
+      <workItem from="1730588792873" duration="3035000" />
+      <workItem from="1730628265606" duration="1306000" />
+      <workItem from="1730638795369" duration="2979000" />
+      <workItem from="1730660105064" duration="3218000" />
+      <workItem from="1730752749734" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
